@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Aeonik_OVERVIEW");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Aeonik_OVERVIEW', sans-serif;
+}
+
+.white-background {
+  background-color: rgb(255, 254, 253);
+  color: rgb(31, 33, 34);
+  background-image: url(https://phenomenonstudio.com/wp-content/webp-express/webp-images/themes/phenomenon/img/bg.png.webp);
+}
+.orange-background {
+  background-color: #F2751A;
+backface-visibility: visible;
+background-attachment: fixed;
+  color: rgb(31, 33, 34);
+  background-image: url(https://phenomenonstudio.com/wp-content/webp-express/webp-images/themes/phenomenon/img/bg.png.webp);
+}
+.lemon-background {
+  background-color: rgb(186, 172, 42);
+backface-visibility: visible;
+background-attachment: fixed;
+  color: rgb(31, 33, 34);
+  background-image: url(https://phenomenonstudio.com/wp-content/webp-express/webp-images/themes/phenomenon/img/bg.png.webp);
+}
+
+.black-gradient {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
